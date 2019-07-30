@@ -129,16 +129,26 @@ hr{
 .second-p{
     padding-bottom: 58px;
 }
-/*Блок about*/
+
+/*            Блок about         ;*/
+
+.content__about{
+    margin: 0;
+    padding: 0;
+    height: 424px;
+}
+
 .content__about-left{
     background: #fff;
     display: inline-block;
     width: 498px;
     float: left;
+    height: 424px;
 }
 
 .content__about-left img{
-width: 498px;
+    width: 498px;
+    height: 424px;
 }
 .content__about-right{
     background: #fff;
@@ -182,9 +192,11 @@ margin-top: 0;
 }
 .about-p1{
     margin-bottom: 24px;
+    margin-right: 44px;
 }
 .about-p2{
-    margin-bottom: 44px;
+    margin-bottom: 34px;
+    margin-right: 44px;
 }
 .about-btn{
     width: 161px;
@@ -196,4 +208,79 @@ margin-top: 0;
     border: 1px solid #05a0af;
     border-radius: 2px;
     box-sizing: border-box;
+}
+
+/*        Блок Our Service         */
+
+.content__service-title{
+    height: 138px;
+    background: #373737;
+    color: #fff;
+/*    margin: 0;*/
+/*    padding: 0;*/
+    text-align: center;
+}
+.content__service-title h2{
+    margin: 0;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font: 40px Arial;
+}
+.content__service-block{
+    background: #3d3d3d;
+}
+.content__service-block ul{
+    margin: 0;
+    padding-left: 0;
+}
+.content__service-block-list li{
+    list-style: none;
+}
+.content__service-block-list-item{
+    width: 330px;
+    height: 554px;
+    display: inline-block;
+}
+.content__service-block-list-item:hover{
+    width: 330px;
+    height: 554px;
+    display: inline-block;
+    background: #097e89;
+}
+.content__service-block-list-item-img{
+
+}
+.content__service-block-list-item-img{
+    width: 125px;
+    height: 74px;
+    margin: 0 auto;
+    margin-top: 142px;
+    margin-bottom: 55px;
+}
+.content__service-block-list-item-title h2{
+    margin: 0 0 20 0;
+    color: #fff;
+    text-align: center;
+    font: 24px Arial;
+}
+.content__service-block-list-item-text{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 22px;
+}
+.content__service-block-list-item-btn{
+    text-align: center;
+}
+.service-btn{
+    height: 29px;
+    width: 141px;
+    background: #959595;
+    color: #fff;
+    border: 1px solid #959595;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font: 12px Arial;
+    cursor: pointer;
 }
