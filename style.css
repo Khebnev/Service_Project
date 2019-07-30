@@ -216,8 +216,6 @@ margin-top: 0;
     height: 138px;
     background: #373737;
     color: #fff;
-/*    margin: 0;*/
-/*    padding: 0;*/
     text-align: center;
 }
 .content__service-title h2{
@@ -283,4 +281,22 @@ margin-top: 0;
     box-sizing: border-box;
     font: 12px Arial;
     cursor: pointer;
+}
+/*      Блок FEEDBACK     */
+
+.content__feedback-title{
+    height: 138px;
+    background: #373737;
+    text-align: center;
+}
+.content__feedback-title h2{
+    margin: 0;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font: 40px Arial;
+    color: #fff;
+}
+.content__feedback-block{
+    height: 282px;
+    background: #3d3d3d;
 }
