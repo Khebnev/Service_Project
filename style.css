@@ -15,6 +15,11 @@ body{
 .footer{
 
 }
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
 
 /*a block with header*/
 .header__content{
@@ -123,4 +128,72 @@ hr{
 }
 .second-p{
     padding-bottom: 58px;
+}
+/*Блок about*/
+.content__about-left{
+    background: #fff;
+    display: inline-block;
+    width: 498px;
+    float: left;
+}
+
+.content__about-left img{
+width: 498px;
+}
+.content__about-right{
+    background: #fff;
+    display: inline-block;
+    width: 498px;
+    float: left;
+}
+.content__about-title{
+
+    text-align: left;
+    margin-top: 31px;
+    margin-left: 43px;
+    text-align: left;
+    margin-bottom: -10px;
+}
+.content__about-title{
+    font: 24px Arial;
+    color: #030303;
+}
+/*
+.content__about-line-short{
+    border-bottom: 3px solid black;
+    width: 63px;
+    margin-left: 43px;
+    position: relative;
+}
+*/
+.content__about-line-full{
+    border-bottom: 2px solid black;
+    width: 391px;
+    margin-left: 43px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.content__about-text{
+    margin-top: 21px;
+    margin-left: 44px;
+}
+.content__about-text p{
+margin-top: 0;
+}
+.about-p1{
+    margin-bottom: 24px;
+}
+.about-p2{
+    margin-bottom: 44px;
+}
+.about-btn{
+    width: 161px;
+    height: 24px;
+    background: #05a0af;
+    margin-left: 43px;
+    font: 10px Arial;
+    color: #fff;
+    border: 1px solid #05a0af;
+    border-radius: 2px;
+    box-sizing: border-box;
 }
