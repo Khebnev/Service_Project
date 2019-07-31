@@ -590,5 +590,72 @@ margin-top: 0;
     font: 12px Arial;
     font-weight: bold;
     border: 1px solid #fff;
+}
+/*             Блок подвала             */
 
+.footer{
+    background: #474747;
+}
+
+.footer__left{
+    width: 500px;
+    height: 209px;
+    color: #e5e5e5;
+}
+.footer__left-lists-column-1{
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding-inline-start: 0;
+}
+.footer__left-lists-column-1-item{
+    padding-left: 39px;
+    padding-top: 18px;
+}
+.footer__left-lists-column-1-item h2{
+    margin: 0;
+    font: 15px Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 6px;
+/*    border-bottom: 1px solid #e5e5e5;*/
+
+}
+
+.footer__left-lists-column-2{
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding-inline-start: 0;
+}
+.footer__left-lists-column-2-item{
+    padding-left: 39px;
+    padding-top: 18px;
+}
+.footer__left-lists-column-2 h2{
+    margin: 0;
+    font: 15px Arial;
+    padding-top: 6px;
+/*    padding-top: 29px;*/
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.footer__left-lists-column-3-item{
+    padding-left: 39px;
+    padding-top: 18px;
+}
+.footer__left-lists-column-3{
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding-inline-start: 0;
+}
+.footer__left-lists-column-3 h2{
+    margin: 0;
+    font: 15px Arial;
+/*    padding-top: 29px;*/
+    padding-top: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
