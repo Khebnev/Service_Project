@@ -397,3 +397,111 @@ margin-top: 0;
     color: #656464;
     text-align: center;
 }
+
+.content__client-nothing{
+    height: 15px;
+    background: #fbfbfb;
+}
+
+
+.content__clients-block ul{
+    padding-inline-start: 0;
+    margin: 0;
+
+}
+
+.content__clients-block-list-item{
+    background: #fefefe;
+    list-style: none;
+    width: 240px;
+    height: 167px;
+    margin-left: 10px;
+}
+.client-adobe{
+    float: left;
+}
+.client-adobe img{
+    width: 162px;
+    height: 36px;
+    padding-top: 74px;
+    padding-bottom: 57px;
+    padding-left: 34px;
+}
+.client-hcl{
+    float: left;
+}
+.client-hcl img{
+    width: 154px;
+    height: 26px;
+    padding-top: 79px;
+    padding-bottom: 62px;
+    padding-left: 40px;
+}
+.client-infosys{
+    float: left;
+}
+.client-infosys img{
+    width: 180px;
+    height: 42px;
+    padding-top: 71px;
+    padding-bottom: 62px;
+    padding-left: 32px;
+}
+.client-invision{
+    float: left;
+}
+.client-invision img{
+    width: 183px;
+    height: 46px;
+    padding-top: 69px;
+    padding-bottom: 52px;
+    padding-left: 27px;
+}
+
+.content__clients-block-list-item2{
+    background: #fefefe;
+    list-style: none;
+    width: 240px;
+    height: 151px;
+    margin-left: 10px;
+}
+.client-cisco{
+        float: left;
+}
+.client-cisco img{
+    width: 144px;
+    height: 42px;
+    padding-top: 50px;
+    padding-bottom: 47px;
+    padding-left: 42px;
+}
+.client-behance{
+    float: left;
+}
+.client-behance img{
+    width: 96px;
+    height: 49px;
+    padding-top: 49px;
+    padding-bottom: 53px;
+    padding-left: 70px;
+}
+.client-canva{
+    float: left;
+}
+.client-canva img{
+    width: 108px;
+    height: 102px;
+    padding-top: 25px;
+    padding-bottom: 24px;
+    padding-left: 70px;
+}
+.client-instagram{
+    float: left;
+}
+.client-instagram img{
+    width: 76px;
+    height: 82px;
+    padding-top: 34px;
+    padding-bottom: 35px;
+    padding-left: 70px;
+}
