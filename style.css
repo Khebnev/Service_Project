@@ -403,7 +403,9 @@ margin-top: 0;
     background: #fbfbfb;
 }
 
-
+.content__clients-block{
+    height: 322px;
+}
 .content__clients-block ul{
     padding-inline-start: 0;
     margin: 0;
@@ -504,4 +506,89 @@ margin-top: 0;
     padding-top: 34px;
     padding-bottom: 35px;
     padding-left: 70px;
+}
+/*Блок запросов queries*/
+
+.content__queries{
+    height: 173px;
+    background: #097e89;
+}
+.content__queries-left{
+    width: 394px;
+    height: 174px;
+/*    display: inline-block;*/
+    float: left;
+}
+
+.content__queries-left-title{
+/*    text-align: center;*/
+    padding-top: 27px;
+    padding-bottom: 26px;
+    padding-left: 42px;
+}
+.content__queries-left-title h2{
+    margin: 0;
+    padding: 0;
+    font: 30px Arial;
+    color: #fff;
+
+}
+.content__queries-left-text{
+    text-align: left;
+    padding-left: 43px;
+/*    padding-bottom: 57px;*/
+
+}
+.content__queries-left-text p{
+    margin: 0;
+    padding: 0;
+    font: 12px Arial;
+    color: #fff;
+}
+.content__queries-right{
+    width: 606px;
+/*    display: inline-block;*/
+    float: right;
+
+}
+.content__queries-lright-input{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 63px;
+}
+.queries-name{
+    width: 204px;
+    height: 43px;
+    float: left;
+    margin-left: 30px;
+    background: #097e89;
+    color: #fff;
+    padding-left: 5px;
+
+}
+/*    Добавляем цвет текста для placeholder в google chrome, safari и firefox (IE и Opera не поспринимают такое) Всё по макету.*/
+   input[type="text"]::-webkit-input-placeholder {
+    color: #fff;
+   }
+   input[type="text"]::-moz-placeholder {
+    color: #fff;
+   }
+.queries-number{
+    width: 201px;
+    height: 43px;
+    float: left;
+    background: #097e89;
+    color: #fff;
+    padding-left: 5px;
+}
+.queries-btn{
+    width: 99px;
+    height: 49px;
+    float: left;
+    background: #fff;
+    color: #097e89;
+    font: 12px Arial;
+    font-weight: bold;
+    border: 1px solid #fff;
+
 }
