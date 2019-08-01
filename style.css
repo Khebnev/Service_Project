@@ -595,12 +595,19 @@ margin-top: 0;
 
 .footer{
     background: #474747;
+/*    width: 1000px;*/
 }
 
 .footer__left{
     width: 500px;
     height: 209px;
     color: #e5e5e5;
+/*    float: left;*/
+/*    display: inline-block;*/
+}
+.footer__left-lists{
+    float: left;
+    width: 500px;
 }
 .footer__left-lists-column-1{
     list-style: none;
@@ -658,4 +665,27 @@ margin-top: 0;
     padding-top: 6px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.footer__right{
+    width: 450px;
+    background-color: forestgreen;
+}
+.footer__right-block{
+    width: 450px;
+    height: 208px;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+.footer__input-text{
+    width: 154px;
+    height: 44px;
+    float: left;
+}
+.footer__input-btn{
+    width: 102px;
+    height: 50px;
+    background: #0072bc;
+    float: left;
+    border: 1px solid #fff;
 }
