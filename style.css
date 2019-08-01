@@ -9,23 +9,15 @@ body{
     background-repeat: no-repeat;
     border-bottom: 1px solid #70668b;
 }
-.content{
 
-}
-.footer{
-
-}
 .clearfix:after{
     content: "";
     display: block;
     clear: both;
 }
 
-
 /*a block with header*/
-.header__content{
 
-}
 .header__logo{
     float: left;
     display: inline-block;
@@ -34,8 +26,6 @@ body{
 }
 .header__logo img{
     margin-top: 22px;
-
-/*    display: inline-block;*/
 }
 .menu_list{
     display: inline-block;
@@ -75,7 +65,6 @@ body{
     color: #097e89;
     cursor: pointer;
 }
-
 
 .header__follow{
     float: right;
@@ -120,7 +109,7 @@ body{
     padding-bottom: 30px;
     padding-left: 70px;
     padding-right: 70px;
-/*    box-sizing: border-box;*/
+
 }
 .context__descriptions{
     font: 10px arial;
@@ -188,7 +177,7 @@ body{
     margin-left: 44px;
 }
 .content__about-text p{
-margin-top: 0;
+    margin-top: 0;
 }
 .about-p1{
     margin-bottom: 24px;
@@ -299,7 +288,6 @@ margin-top: 0;
 }
 .content__feedback-block{
     height: 282px;
-
     background: #3d3d3d;
     display: inline-block;
     width: 1000px;
@@ -311,47 +299,32 @@ margin-top: 0;
     padding-right: 62px;
     color: #fff;
     font: 18px Arial;
-/*    display: inline-block;*/
     width: 238px;
-/*    height: 282px;*/
     float: left;
-
 }
-
-
-
 .content__feedback-block-list-people{
-/*    display: inline-block;*/
     padding-inline-start: 0;
     width: 636px;
     height: 283px;
     margin: 0;
-
     float: left;
     padding-top: 27px;
-
-
 }
 
 .content__feedback-block-list-people-item{
-
     display: inline-block;
     list-style: none;
     width: 199px;
     height: 223px;
     margin-right: 10px;
-
-
 }
 .feedback-model-1{
     background: url(images/Model-1.png) ;
     background-size: 202px 223px;
-
 }
 .feedback-model-2{
     background: url(images/Model-2.png) ;
     background-size: 202px 223px;
-
 }
 .feedback-model-3{
     background: url(images/model-3.png) ;
@@ -368,7 +341,6 @@ margin-top: 0;
     margin-top: 181px;
 }
 .content__feedback-block-list-people-item-bg-name{
-
     background: #fff;
     width: 136px;
     height: 32px;
@@ -376,7 +348,6 @@ margin-top: 0;
     margin-left: 10px;
     margin-bottom: 9px;
     margin-top: 182px;
-
 }
 .content__feedback-block-list-people-item-bg-name p{
     background: #fff;
@@ -410,7 +381,6 @@ margin-top: 0;
 .content__clients-block ul{
     padding-inline-start: 0;
     margin: 0;
-
 }
 
 .content__clients-block-list-item{
@@ -483,7 +453,7 @@ margin-top: 0;
     margin-left: 10px;
 }
 .client-cisco{
-        float: left;
+    float: left;
 }
 .client-cisco img{
     width: 144px;
@@ -527,17 +497,14 @@ margin-top: 0;
 .content__queries{
     height: 173px;
     background: #097e89;
-
 }
 .content__queries-left{
     width: 394px;
     height: 174px;
-/*    display: inline-block;*/
     float: left;
 }
 
 .content__queries-left-title{
-/*    text-align: center;*/
     padding-top: 27px;
     padding-bottom: 26px;
     padding-left: 42px;
@@ -547,13 +514,10 @@ margin-top: 0;
     padding: 0;
     font: 30px Arial;
     color: #fff;
-
 }
 .content__queries-left-text{
     text-align: left;
     padding-left: 43px;
-/*    padding-bottom: 57px;*/
-
 }
 .content__queries-left-text p{
     margin: 0;
@@ -563,9 +527,7 @@ margin-top: 0;
 }
 .content__queries-right{
     width: 606px;
-/*    display: inline-block;*/
     float: right;
-
 }
 .content__queries-lright-input{
     margin-left: 20px;
@@ -580,7 +542,6 @@ margin-top: 0;
     background: #097e89;
     color: #fff;
     padding-left: 5px;
-
 }
 /*    Добавляем цвет текста для placeholder в google chrome, safari и firefox (IE и Opera не поспринимают такое) Всё по макету.*/
    input[type="text"]::-webkit-input-placeholder {
@@ -609,7 +570,6 @@ margin-top: 0;
     cursor: pointer;
 }
 
-
 /*             Блок подвала             */
 
 .footer{
@@ -623,9 +583,7 @@ margin-top: 0;
     width: 500px;
     height: 210px;
     float: left;
-
 }
-
 
 .footer__left-lists-column-1{
     list-style: none;
@@ -669,7 +627,6 @@ margin-top: 0;
     margin: 0;
     font: 15px Arial;
     padding-top: 6px;
-/*    padding-top: 29px;*/
     font-weight: bold;
     text-transform: uppercase;
 
@@ -692,7 +649,6 @@ margin-top: 0;
 .footer__left-lists-column-3 h2{
     margin: 0;
     font: 15px Arial;
-/*    padding-top: 29px;*/
     padding-top: 6px;
     font-weight: bold;
     text-transform: uppercase;
@@ -708,9 +664,7 @@ margin-top: 0;
     height: 208px;
 }
 .footer__right-block-inputs{
-
-height: 104px;
-
+    height: 104px;
 }
 .footer__input-email{
     width: 154px;
@@ -721,7 +675,6 @@ height: 104px;
     background-color: #cccccc;
     padding-left: 5px;
 }
-
 
 .footer__input-btn{
     width: 102px;
